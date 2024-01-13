@@ -1,6 +1,8 @@
 import meter1 from "../assets/img/meter1.png";
 import meter2 from "../assets/img/meter2.png";
 import meter3 from "../assets/img/meter3.png";
+import meter4 from "../assets/img/meter4.png";
+import meter5 from "../assets/img/meter5.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -39,14 +41,27 @@ export const Team = () => {
                             <div className="item">
                                 <img src={meter1} alt="Image" />
                                 <h5>Maher</h5>
+                                <h6>Founder, Game Director</h6>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
                                 <h5>Alex</h5>
+                                <h6>Founding Engineer</h6>
+                            </div>
+                            <div className="item">
+                                <img src={meter4} alt="Image" />
+                                <h5>Emily</h5>
+                                <h6>Lead Artist</h6>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
                                 <h5>Josh</h5>
+                                <h6>Business Development Executive</h6>
+                            </div>
+                            <div className="item">
+                                <img src={meter5} alt="Image" />
+                                <h5>Ryan</h5>
+                                <h6>Lead Engineer</h6>
                             </div>
                         </Carousel>
                     </div>
